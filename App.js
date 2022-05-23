@@ -1,8 +1,8 @@
 import React from "react";
 import { useReducer } from "react";
 
-import Datafetching from "./Dispatch/Axios";
-import Data from "./Dispatch/AxiosId";
+import Datafetching from "./Dispatch/Data";
+import Data from "./Dispatch/DataFetchById";
 import { ComponentA } from "./Reducer/ComoponentA";
 
 export const Component=React.createContext()
